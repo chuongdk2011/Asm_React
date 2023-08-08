@@ -146,5 +146,8 @@ const styles = StyleSheet.create({
   },
   control: {
     margin: 20
+  },
+  vip: {
+    margin:10
   }
 });
