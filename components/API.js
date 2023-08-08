@@ -1,0 +1,15 @@
+export const API={
+    login:'http://10.24.41.241:3000/users?username=',
+    getlistarticle:"http://10.24.41.241:3000/posts?_expand=users",
+    getlistuser:"http://10.24.41.241:3000/users",
+    updatearticleadmin:'http://10.24.41.241:3000/posts/',
+    updatearticleadmin1: 'http://10.24.41.241:3000/posts',
+    deletearticleadmin:'http://10.24.41.241:3000/posts/',
+    getlistcommentadmin:"http://10.24.41.241:3000/comments?_expand=users&postsId=",
+    getlistcommentguest:"http://10.24.41.241:3000/comments?_expand=users&postsId=",
+    addcommentadmin:"http://10.24.41.241:3000/comments",
+    addcommentguest:"http://10.24.41.241:3000/comments",
+    deletecommentadmin:"http://10.24.41.241:3000/comments/",
+    deletecommentguest:"http://10.24.41.241:3000/comments/",
+    deleteuser:"http://10.24.41.241:3000/users/",
+}
